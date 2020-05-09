@@ -5,7 +5,6 @@ class Gate:
         else:
             self.inputs = list(args)  
 
-
 class NOT(Gate):
     def __init__(self, input):
         super().__init__(input)
